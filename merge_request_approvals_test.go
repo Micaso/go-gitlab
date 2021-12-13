@@ -188,6 +188,7 @@ func TestGetApprovalRules(t *testing.T) {
 				"id": 1,
 				"name": "security",
 				"rule_type": "regular",
+				"section": "test",
 				"eligible_approvers": [
 					{
 						"id": 5,
@@ -251,6 +252,7 @@ func TestGetApprovalRules(t *testing.T) {
 			ID:       1,
 			Name:     "security",
 			RuleType: "regular",
+			Section:  "test",
 			EligibleApprovers: []*BasicUser{
 				{
 					ID:        5,

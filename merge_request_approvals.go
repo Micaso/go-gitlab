@@ -102,6 +102,7 @@ type MergeRequestApprovalRule struct {
 	ContainsHiddenGroups bool                 `json:"contains_hidden_groups"`
 	ApprovedBy           []*BasicUser         `json:"approved_by"`
 	Approved             bool                 `json:"approved"`
+	Section              string               `json:"section"`
 }
 
 // MergeRequestApprovalState represents a GitLab merge request approval state.
